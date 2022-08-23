@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #E5E5E5;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.top-search{
+    background-color: #FFFFFF;
+    width: 1366px;
+    height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #DBDBDB;
+}
+.mobile-top{
+    display: none;
+}
+.first{
+    display: flex;
+    margin-left: 100px;
+}
+
+.insta-logo {
+    color: black;
+    font-size: 30px;
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 5px;     
+}
+.first img{
+    margin: auto;
+    border-left: 1px solid #DBDBDB; 
+    padding-left: 5px;
+    margin-top: 15px;
+}
+
+.second, 
+.third{
+    color: black;
+    font-size: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px; 
+}
+
+.second input{
+    width: 215px;
+    height: 28px;
+    background-color: #fafafa;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+.third{
+    margin-top: 10px;
+}
+
+/* ---- fim barra de procura -----*/
+
+.container{
+    background-color: #E5E5E5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.main-roll{
+    background-color: #E5E5E5;
+    width: 612px;
+    height: 1000px;
+    margin-right: 10px;
+}
+    
+.stories{
+    background-color: #FFFFFF;
+    width: 614px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+    border: 2px solid #DBDBDB;
+}
+
+.story div{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+}
+.story img:nth-child(2){
+    width: 52px;
+    
+    position: absolute;
+    left:5px;
+    bottom: 17px;
+}
+.story img:nth-child(1){
+    width: 62px;
+}
+.story p{
+    font-size: 12px;
+}
+
+.stories div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.stories div img{
+   width: 56px;
+   margin: 0 10px;
+   justify-content: center;
+}
+.stories div p{
+    margin: auto
+}
+.stories{
+    position: relative;
+}
+.button-right{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 565px;
+    filter: drop-shadow(0 4px 4px gray);
+}
+.user{
+    display: flex;
+    align-items: center;
+    padding: 0 16px;  
+}
+.post .user img{
+    width: auto
+}
+.post .user h6{
+    font-weight: bold ;
+    width: 109px;
+    height: 21px;
+    padding-left: 10px;
+    padding-top: 2px;
+    margin-right: 400px;
+}
+
+.like{
+    display: flex;
+    margin-left: 10px;
+}
+.post .like img{
+    width: 30px;
+    height:30px;
+}
+
+.post{
+    background-color: #FFFFFF;
+    width: 614px;
+    height: 749px;
+    margin-top: 30px;
+}
+.user{
+    background-color: #FFFFFF;
+    height: 61px;
+}
+.post .user img{
+    width: 7%;
+}
+.post img{  
+    width: 100%;
+}
+.main-roll .post{
+    border: 2px solid #DBDBDB;
+}
+.coment{
+    height: 38px;
+    gap: 5px;
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+.coment ion-icon{
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+}
+.flag-right{
+    margin-left: 490px;
+}
+.like{
+    height: 38px;
+}
+.like p{
+    padding-left: 8px;
+    padding-top: 7px;
+}
+.like img{
+    margin-left: 3px;
+    margin-bottom: 10px;;
+}
+
+/* ---- fim barra de rolagem principal ----*/
+
+.suggestions{
+    background-color: #E5E5E5;
+    width: 295px;
+    height: 400px;
+    margin-top: 34px;
+}
+
+.suggestions-main {
+    display: flex;
+    padding: 5px 5px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.suggestions-main img{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.suggestions-main h6{
+    margin-top: 10px;
+}
+
+.suggestions-quite{
+    display: flex;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.quite-main{
+    margin-right: 80px;
+}
+
+.suggestions-user{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center; 
+    margin: 16px 0;
+    font-size: 12px;
+}
+
+.suggestions-user img{
+    border-radius: 50px;
+    margin-left: 10px;
+   
+}
+
+.suggestions-user p{
+    color: #8e8e8e;
+}
+
+.suggestions-user h6{
+    color: #262626;
+    margin-top: 0;
+}
+
+.suggestions-user > h6{
+    color: #139ef2;
+}
+
+.suggestions-left div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  .suggestions-left{
+    display: flex;
+    gap: 10px;
+}
+.suggestions-bellow-first{
+    color: #8e8e8e;
+    font-size: 12px;
+    margin: 0 10px;
+    margin-bottom: 15px;
+}
+.suggestions-bellow{
+    color: #8e8e8e;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.footer-mobile{
+    display: none;
+}
+
+/* ------ FIM DO DESKTOP-------*/
+
+@media (max-width: 935px){
+    body{
+        margin: auto;
+    }
+
+    .top-search{
+        width: 935px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-search .first{
+        margin-left: 20px;
+    }
+    .top-search .third{
+        margin-right: 20px;
+    }
+    
+    .suggestions{
+        display: none;
+    }
+
+    .container{
+        width: fit-content;
+        padding: 0;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 614px){
+    *{
+        box-sizing: border-box;
+    }
+
+    .suggestions,
+    .top-search{
+        display: none;
+    }
+
+    
+    .button-right{
+        left: 10000000000000000000000000000000000px;
+    }
+
+    .menu{
+       margin-left: 2px;
+    }
+    .mobile-top{
+        display: flex;
+       width: 610px;
+       height: 54px;
+       justify-content: space-between;
+       background-color: #FFFFFF;
+       font-size: 12px;
+    }
+    .mobile-top img{
+        margin-top: 15px;
+    }
+    
+
+    ion-icon{
+        font-size: 30px;
+        margin-top: 10px;
+        margin: 10px 5px 10px 5px;
+    }
+    
+    .stories{
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: #E5E5E5;
+        border: 0
+    }
+    .post{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+    }
+
+    .flag-right{
+        margin-left: 460px;
+    }
+
+    .like{
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    .footer-mobile{
+        width: 100%;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        position: fixed ;
+        bottom: 0;
+    }
+
+    .points{
+        background-color: black;
+    }
+}
